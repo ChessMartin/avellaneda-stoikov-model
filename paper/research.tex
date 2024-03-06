@@ -1,0 +1,80 @@
+\documentclass[12pt]{article}
+
+% Packages
+\usepackage{amsmath}    % For advanced math typesetting
+\usepackage{amsfonts}   % For mathematical fonts
+\usepackage{amssymb}    % For additional mathematical symbols
+\usepackage{amsthm}     % For defining theorem environments
+\usepackage{graphicx}   % For including figures
+\usepackage{hyperref}   % For hyperlinks in the document
+\usepackage[utf8]{inputenc} % For unicode input
+\usepackage{authblk}    % For author and affiliation
+
+% Theorem environments
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+% Title, authors, and affiliations
+\title{Optimizing High-Frequency Trading Strategies: An Application of the Avellaneda-Stoikov Model to Stock Order Book Data}
+
+\author{Martin Le Formal, Benjamin Courtois}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\noindent
+This study explores the application of the Avellaneda-Stoikov model, a seminal framework in high-frequency trading, to the empirical realm of stock order books.
+Our research objective is to adapt and fit the model's constants to real-world data, thereby bridging the gap between theoretical finance and practical trading strategies.
+By employing a robust dataset encompassing bid-ask spreads, order sizes, and transaction volumes, we meticulously estimate the model parameters, including market impact factors and order arrival rates.
+The paper introduces an innovative calibration methodology that leverages advanced statistical techniques to ensure an accurate fit to the stock's dynamic trading environment.
+Our findings reveal that the adapted Avellaneda-Stoikov model significantly enhances the prediction of optimal bid and ask strategies, offering a novel perspective on managing inventory risk and maximizing profitability in high-frequency trading.
+The implications of this study extend beyond theoretical contributions, providing actionable insights for traders and a validated approach for further academic exploration in the field of quantitative finance.
+\end{abstract}
+
+
+\section{Introduction}
+Introduce the topic of your research, its significance, and the main objectives of your paper.
+
+\section{Preliminaries}
+Discuss any preliminary concepts, definitions, or prior work necessary to understand your research.
+
+\section{Main Results}
+Present the main results of your research, including theorems, lemmas, and proofs.
+
+\subsection{Theorem Statements and Proofs}
+\begin{theorem}
+State your theorem here.
+\end{theorem}
+
+\begin{proof}
+Provide the proof of your theorem here.
+\end{proof}
+
+\section{Numerical Experiments}
+If applicable, describe any numerical experiments or simulations that support your theoretical results.
+
+\section{Conclusion}
+Summarize your main findings, their implications, and potential directions for future research.
+
+\section{Acknowledgments}
+Acknowledge any funding, contributions, or thanks to individuals or institutions that supported your work.
+
+\begin{thebibliography}{99}
+
+\bibitem{AuthorYear}
+Author(s). (Year). Title of the paper. \textit{Journal Name}, Volume(Issue), page numbers.
+
+\end{thebibliography}
+
+\end{document}
